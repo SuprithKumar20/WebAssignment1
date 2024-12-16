@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background: #f4f4f4;
+}
+.profileText .imgBx 
+{ 
+    position:relative; 
+    width: 200px; 
+    height:200px; 
+    border-radius: 50%; 
+    overflow:hidden; 
+ 
+} 
+.profileText .imgBx img 
+{ 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+ 
+    height: 100%; 
+    object-fit: cover; 
+} 
+.container { 
+    width: 100%; 
+    height: auto; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 30px; 
+} 
+ 
+.biodatabox { 
+    margin-top: 50px; 
+    width: 70%; 
+    height: 100%; 
+    padding: 50px; 
+    position: relative; 
+    border: 3px solid blueviolet; 
+    border-radius: 1px 90px 1px 1px; 
+} 
+ 
+.biodatabox::before { 
+    width: 100%; 
+ 
+    height: 100%; 
+    margin: -50px; 
+    position: absolute; 
+    border-radius: 1px 90px 1px 1px; 
+    content: ""; 
+    background: url(images/1.jpg); 
+    background-size: 100% 100%; 
+    opacity: .6; 
+    z-index: -10; 
+} 
+ 
+table { 
+    width: 100%; 
+    height: auto; 
+    font-size: 30px; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+} 
+ 
+.hed { 
+    text-align: center; 
+    font-size: 40px; 
+    color: rgb(47, 18, 179); 
+    font-weight: 600; 
+} 
+ 
+.heds { 
+    padding-left: 10%; 
+    font-size: 30px; 
+    font-weight: 600; 
+    font-style: oblique; 
+    color: darkmagenta; 
+    text-shadow: 15px 15px 40px white; 
+} 
+ 
+.hedsa { 
+    font-size: 30px; 
+    font-weight: 600; 
+    font-style: inherit; 
+    color: rgb(247, 58, 11); 
+    text-align: center; 
+} 
+.field { 
+    border: 3px solid rgb(55, 0, 255); 
+    border-radius: 20px; 
+} 
+ 
+.name { 
+    color: rgb(13, 14, 13); 
+    font-weight: 550; 
+} 
+.ans { 
+    font-size: 25px; 
+}
+ 
+p 
+{ 
+    color: #333; 
+} 
